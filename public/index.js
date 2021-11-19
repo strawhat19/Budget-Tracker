@@ -1,6 +1,8 @@
 let transactions = [];
 let myChart;
 
+Chart.defaults.global.defaultFontColor='white';
+
 fetch(`/api/transaction`)
   .then(response => {
     return response.json();
@@ -64,7 +66,7 @@ function populateChart() {
         datasets: [{
             label: `Total Over Time`,
             fill: true,
-            backgroundColor: `#6666ff`,
+            backgroundColor: `#3e8359`,
             data
         }]
     }

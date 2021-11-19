@@ -5,7 +5,7 @@
 body {
     font-size: 120%;
     font-family: 'Aldrich' !important;
-    background: black;
+    background: #215a79;
     color: #fff;
   }
 
@@ -29,9 +29,23 @@ body {
     text-align: left;
     padding: 8px;
   }
+
+  .totalSentence {
+    width: 40%;
+    text-align: right;
+    font-size: 28px;
+  }
+
+  tr {
+    background: black;
+  }
+
+  tbody tr {
+    background: #1f4763;
+  }
   
   tr:nth-child(even) {
-    background-color: #333333;
+    background-color: #3e8359;
   }
   
   .error {
@@ -51,9 +65,9 @@ body {
   
   .total {
     font-size: 150%;
-    text-decoration: underline;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
   }
   

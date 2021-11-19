@@ -3,7 +3,7 @@ Tracking expenditures and helping you manage your budget.
 
 ![license MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
-<!-- ![Screenshot of Application](https://raw.githubusercontent.com/strawhat19/SQL-Employee-Tracker/main/assets/screenshot.JPG) -->
+![Screenshot of Application](./public/screencapture-localhost-3000-2021-11-19-14_32_22.png)
 
 ## **Table of Contents**
 * [Installation](#installation)

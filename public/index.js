@@ -2,6 +2,8 @@ let transactions = [];
 let myChart;
 
 Chart.defaults.global.defaultFontColor='white';
+Chart.defaults.global.defaultColor='white';
+Chart.defaults.global.tickColor='white';
 
 fetch(`/api/transaction`)
   .then(response => {
@@ -67,8 +69,13 @@ function populateChart() {
             label: `Total Over Time`,
             fill: true,
             backgroundColor: `#3e8359`,
+            borderColor: "rgba(255,255,255,0.1)",
             data
         }]
+    },
+    options: {
+      tickColor: `#ffffff`,
+      fillOpacity: 0.8
     }
   });
 }
